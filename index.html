@@ -1,46 +1,132 @@
 <html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zyra Learning is the BEST site for educational games students are bound to find an educational yet fun activity that they love!">
-    <title>Zyra Learning</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
-    <style> 
-        body { 
-            font-family: 'Inter', sans-serif; 
-            position: relative;
-        } 
-        #particles-js {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: 0; 
-        }
-        .container {
-            position: relative; 
-            z-index: 1;
-        }
-    </style>
-    <script> 
-        function openInAboutBlank(url) { 
-            const newWindow = window.open('about:blank', '_blank'); 
-            if (newWindow) { 
-                newWindow.document.title = "Math Practice"; 
-                const iframe = newWindow.document.createElement('iframe'); 
-                iframe.src = url; 
-                iframe.style.cssText = 'border: none; width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;'; 
-                newWindow.document.body.style.cssText = 'margin: 0; padding: 0; overflow: hidden;'; 
-                newWindow.document.body.appendChild(iframe); 
-            } else { 
-                alert('Popup blocked! Please allow popups for this site to work.'); 
-            } 
-        } 
-        alert("Hello! Remember to join the discord, and any donations are greatly appreciated!");
-    </script>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.absolute{position:absolute}.relative{position:relative}.inset-y-0{top:0px;bottom:0px}.left-0{left:0px}.right-4{right:1rem}.top-4{top:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-8{margin-bottom:2rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-5{height:1.25rem}.w-5{width:1.25rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.items-center{align-items:center}.gap-4{gap:1rem}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity, 1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-purple-400{--tw-gradient-from:#c084fc var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 132 252 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-pink-600{--tw-gradient-to:#db2777 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pl-10{padding-left:2.5rem}.pl-3{padding-left:0.75rem}.pr-3{padding-right:0.75rem}.text-center{text-align:center}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.font-bold{font-weight:700}.font-semibold{font-weight:600}.tracking-tight{letter-spacing:-0.025em}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.placeholder-gray-400::placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-600:hover{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.focus\:border-purple-500:focus{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-purple-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(168 85 247 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}@media (min-width: 768px){.md\:mb-12{margin-bottom:3rem}.md\:block{display:block}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:gap-6{gap:1.5rem}.md\:py-12{padding-top:3rem;padding-bottom:3rem}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-5{grid-template-columns:repeat(5, minmax(0, 1fr))}}</style><style>/* stylelint-disable */
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zyra Games</title>
+  <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/UseInterstellar/Interstellar/refs/heads/main/static/assets/media/favicon/classroom.png">
+
+
+      <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet">
+    <style>@import url('https://fonts.cdnfonts.com/css/blocparty-outline');</style>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/themes.css">
+<style>
+* {
+    box-sizing: border-box;
+        font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-primary);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 10px;
+  background: var(--bg-secondary);
+}
+
+header input,
+header select,
+header button {
+  background: var(--bg-tertiary);
+  color: #fff;
+  border: none;
+  padding: 6px 8px;
+}
+
+header button:hover,
+header input:hover,
+header select:hover {
+  background: var(--accent-primary);
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  padding: 12px;
+}
+
+.zone {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.1s ease-in-out;
+}
+
+.zone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.1s ease-in-out;
+}
+
+.zone:hover {
+  transform: scale(1.1);
+}
+
+.zone:hover img {
+  transform: scale(1.1);
+}
+
+.zone-name {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 6px;
+  background: rgba(0,0,0,0.75);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.zone:hover .zone-name {
+  opacity: 1;
+}
+
+#viewer {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.96);
+  display: none;
+  flex-direction: column;
+  z-index: 999;
+}
+
+#viewer iframe {
+  flex: 1;
+  border: none;
+}
+
+#viewer-controls {
+  padding: 10px;
+  text-align: center;
+}
+
+#viewer-controls button {
+  margin: 0 6px;
+  padding: 6px 10px;
+  background: var(--bg-tertiary);
+  border: none;
+  color: #fff;
+}
+
+#viewer-controls button:hover {
+  background: var(--accent-primary);
+}
+</style>
+<style>/* stylelint-disable */
 /* stylelint-enable */
 /** Buttons
 ---------------------------------------------------------*/
@@ -1329,25 +1415,7 @@ gw-radio label.gw-radio__input-label u {
   text-decoration: underline;
   font-size: 1em; /* Inherit from parent label (1.2em) */
   font-weight: normal;
-}</style><style></style><style>
-@keyframes ggt-annotate-pulse {
-  from {
-    transform: scale(1);
-  }
-  10% {
-    transform: scale(0.91);
-  }
-  17% {
-    transform: scale(0.98);
-  }
-  33% {
-    transform: scale(0.87);
-  }
-  45% {
-    transform: scale(1);
-  }
-};
-</style><style>.f4wp3soi2Iz7cL8_mBs6 {
+}</style><style></style><style>.f4wp3soi2Iz7cL8_mBs6 {
   filter: hue-rotate(310deg) saturate(1.5) grayscale(0%) !important;
   -webkit-filter: hue-rotate(310deg) saturate(1.5) grayscale(0%) !important;
   animation: unset !important;
@@ -1460,757 +1528,251 @@ gw-radio label.gw-radio__input-label u {
   color: #262626 !important;
   font-weight: bold !important;
 }
-</style><style>.CHyAgqPbx_yuoH5uy3fA {
-  all: inherit;
-  position: fixed;
-  z-index: 2147483638;
-  transform: translate3d(0, 0, 0);
-  height: 150px;
-  min-width: 42px;
-  pointer-events: none;
-}
-
-.c7PfBJGDinK5Bw9mX7X1 {
-  all: initial !important;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-}
-
-.wX6Ok7uuj0zTzTimF5wb {
-  all: initial !important;
-  font-family: helvetica, arial, sans-serif !important;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  line-height: 18px !important;
-}
-
-.oojVDlbQ8aUE1WHqV0hZ {
-  all: inherit;
-  background: white;
-  box-sizing: border-box;
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
-  border: 1px solid #717171;
-  padding: 24px;
-  color: #6f6f6f;
-  font-size: 12px;
-  width: 380px;
-  height: 100%;
-  position: absolute;
-
-  .k4AUZjsXaZZszZI4r2hX {
-    all: revert;
-    font-size: 12px;
-    font-weight: 400;
-    color: #6f6f6f;
-    margin-top: 0px;
-    margin-bottom: 16px;
-
-    strong {
-      color: #000;
-      font-weight: 700;
-      font-size: 15px;
-      line-height: 1.5;
-      font-family: helvetica, arial, sans-serif !important;
-    }
-  }
-
-  p {
-    font-size: 12px;
-    margin: 0 0 16px;
-    line-height: 18px;
-    padding: 0;
-  }
-}
-
-.oojVDlbQ8aUE1WHqV0hZ.QTXPy_h3jSEXtt1vMRgV {
-  display: block;
-}
-
-.oojVDlbQ8aUE1WHqV0hZ.eQUoBAGM4TK9cyX55I5S {
-  display: none;
-}
-
-.gSuwB40dhy9p0S8mO4_A {
-  all: unset;
-  display: block;
-  position: absolute;
-  pointer-events: all;
-  height: 42px;
-  width: 42px;
-  border-radius: 50%;
-  background-color: #078aab;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-  top: 16px;
-
-  &:hover {
-    cursor: pointer;
-  }
-
-  &:focus {
-    outline: 5px auto #0097cf;
-  }
-}
-
-.C0oEISkoiBHvRg2Tr4Dy {
-  background-color: #d9d9d9 !important;
-  border-radius: 2px !important;
-  float: right !important;
-  font-size: 12px !important;
-  text-transform: uppercase !important;
-  border: 1px solid #d9d9d9 !important;
-  color: #000 !important;
-  cursor: pointer !important;
-  font-weight: 600 !important;
-  padding: 4px 16px !important;
-  line-height: 1.5 !important;
-  letter-spacing: 0.5px !important;
-  font-family: helvetica, arial, sans-serif !important;
-}
-
-.QYJ27ZD_xSov6xX3D9jB {
-  all: unset;
-  display: inline-block;
-  height: 42px;
-  width: 42px;
-  color: white;
-}
-
-.dV9ESxaqZaFn_Y3FEReD {
-  margin-right: 21px;
-  padding-right: 36px;
-  right: 0;
-}
-
-.nnquEGgT1me8UakMNiUQ {
-  margin-left: 21px;
-  padding-left: 36px;
-  left: 0;
-}
-</style><style>.WMxS1J6ioJ9GGcB7jpSt {
-  font-family: "Open Sans", sans-serif;
-  color: #000;
-  background-color: #fff;
-  margin: 0;
-  position: fixed;
-  bottom: 5%;
-  right: 30px;
-  width: 40%;
-  z-index: var(--gg-max-safe-z-index);
-}
-
-.KEqVTIMgp6xa3EhIF8su {
-  background: #fff;
-  padding: 27px 45px;
-  font-size: 16px;
-  position: relative;
-  border-left: 12.7px solid #0097cf;
-  line-height: 1.5;
-  word-spacing: 0.16em;
-  font-weight: 400;
-}
-
-._1i1qEpvkNkNHb3_Wo92 {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  z-index: 1;
-  background: transparent;
-  border: transparent;
-  margin: 0;
-  padding: 0;
-}
-
-.DdblROjO1FZxLD91RzUK {
-  width: 24px;
-  height: 24px;
-  color: #757575;
-  cursor: pointer;
-}
-</style><style>.To7Rzi0O1nlffaEHzn94 {
-  all: unset;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-  overflow: hidden;
-  transition-delay: 0.5s;
-  transition-property: height, width;
-}
-
-.GQwzK0l7JB47IVa7fZmX {
-  height: 100%;
-  width: 100%;
-  transition-delay: 0s;
-}
-
-.t0W1qu3qBahmkXdEPA3S {
-  all: unset;
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.95);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  opacity: 0;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 0.35s;
-  transition-property: opacity;
-}
-
-.qit3QTAcJj8MDbtOxkD1 {
-  all: unset;
-  position: absolute;
-  background-color: white;
-  z-index: 101;
-  padding: 40px 40px 20px;
-  width: 460px;
-  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.28);
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-  transform: translate(-50%, -50%);
-  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-duration: 0.35s;
-  animation-name: h9pRScRKcELlVvUJevdi;
-  animation-direction: reverse;
-}
-
-@keyframes h9pRScRKcELlVvUJevdi {
-  0% {
-    opacity: 0;
-    transform: translate(-50%, -70%);
-  }
-}
-
-.bXbe4wapBPkm0eQXwvkI {
-  all: unset;
-  display: block;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  color: #575659;
-  margin: 0;
-  padding-bottom: 14px;
-  text-align: left;
-  line-height: normal;
-  word-break: break-all;
-}
-
-.SCPAMof7dbuKMcfsDeU4 {
-  all: unset;
-  max-height: 65vh;
-  overflow-y: auto;
-  display: block;
-  font-size: 14px;
-  font-family: helvetica, arial, sans-serif;
-  color: #575659;
-  margin: 0;
-  margin-bottom: 40px;
-  text-align: left;
-  line-height: normal;
-}
-
-.K64G9NQMNxCmZCnhhfbq {
-  all: unset;
-  display: block;
-  text-align: right;
-  color: white;
-}
-
-.hFr78obMHMXgwzeU7qJy {
-  all: initial;
-  background-color: #0097cf;
-  color: #fff;
-  align-content: center;
-  align-items: center;
-  border: 0;
-  border-radius: 2px;
-  cursor: pointer;
-  display: inline-block;
-  flex-direction: row;
-  font-size: 14px;
-  line-height: 40px;
-  height: 40px;
-  justify-content: center;
-  margin-bottom: 0;
-  overflow: hidden;
-  padding: 0 30px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 400;
-
-  &:active {
-    background-color: lighten(#0097cf, 10%);
-  }
-
-  &:focus {
-    outline: 1px solid #0097cf;
-    outline-offset: 2px;
-  }
-}
-
-@media print {
-  .VrTDXRtVFtBycLTZbRR8 {
-    &,
-    & * {
-      display: none !important;
-    }
-  }
-}
 </style></head>
-<body class="bg-gray-900 text-white relative">
-    <div id="particles-js"><canvas class="particles-js-canvas-el" width="763" height="7224" style="width: 100%; height: 100%;"></canvas></div>
-    <div id="clock" class="absolute top-4 right-4 bg-gray-800 text-white font-semibold py-2 px-4 rounded-lg shadow-lg hidden md:block" style="z-index: 2;">02:12:09 AM</div>
 
-    <div class="container mx-auto px-4 py-8 md:py-12">
-        <header class="text-center mb-8 md:mb-12">
-            <h1 class="text-4xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">Zyra Games</h1>
-            <p class="text-gray-400 mt-2 text-lg">Bog is a diddy blud...</p>
-            <div class="mt-4 inline-block">
-                <a href="https://visitorbadge.io/status?path=https%3A%2F%2Feu4ia.netlify.app" target="_blank"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Feu4ia.netlify.app&amp;label=users&amp;labelColor=%23d9e3f0&amp;countColor=%23ba68c8" alt="visitor counter"></a>
-            </div>
-        </header>
+<body>
+   <script>
+let inFrame
+try {
+    inFrame = window !== top
+} catch (e) {
+    inFrame = true
+}
 
-        <div class="mb-8 md:mb-12 max-w-2xl mx-auto">
-            <div class="relative">
-                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
-                    </svg>
-                </div>
-                <input id="searchBar" type="text" placeholder="Search for a game..." class="block w-full bg-gray-800 border border-gray-700 rounded-md py-3 pl-10 pr-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition">
-            </div>
-        </div>
+if (!inFrame && !navigator.userAgent.includes("Firefox")) {
+    const popup = open("about:blank", "_blank")
+    if (!popup || popup.closed) {
+        alert(" The following tab shows in your history. Allow popups and redirects to hide this from showing up in your history. do NOT do this if your browser doesnt support iframes")
+	} else {
+        const doc = popup.document
+        const iframe = doc.createElement("iframe")
+        const style = iframe.style
+        const link = doc.createElement("link")
 
+        const name = localStorage.getItem("name") || "Home";
+        const icon = localStorage.getItem("icon") || "https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png";
 
-        <main id="gameGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
-            <a href="javascript:void(0);" onclick="openInAboutBlank('https://catgptv1.w3spaces.com/')" class="bg-gray-800 hover:bg-green-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">CatGPT AI</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clbasketrandom.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Basket Random</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/sandstone.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Sandstone</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/cl2doom.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">2Doom</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clangrybirds.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Angry Birds</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clbitlife.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">BitLife</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clbloonsTD5.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Bloons TD 5</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clbloxorz.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Bloxorz</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clclusterrush.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Cluster Rush</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clcuttherope.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Cut The Rope</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clfruitninja.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Fruit Ninja</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clgooglebaseball.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Google Baseball</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clhalflife.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Half-Life</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clinfinitecraft.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Infinite Craft</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clminecraft1-8-8.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Minecraft</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clpaperio.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Paper.io</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clruffle.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Flash Player</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clsliceitall.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Slice It All</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clslope.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Slope</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clsolarsmash.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Solar Smash</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clstickmanhook.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Stickman Hook</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/shortened.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Subway Surfers</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clsugarsugar.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Sugar Sugar</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/cltunnelrushbetter.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Tunnel Rush</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clwebfishing.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Webfishing</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clsupermario64.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Super Mario 64</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/helios.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Helios</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clADOFAI.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">ADOFAI</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clamaze.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Amaze!</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clamongus.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Among Us</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clboxingrandom.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Boxing Random</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/cldeltarune.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Deltarune</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clultrakill.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Ultrakill</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clfluidism.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Fluidism</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clFNAF.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">FNAF</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/htmleditor.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">HTML Editor</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('multi/calc/calculator.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Calculator</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('multi/gba/index.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">GBAEmulator</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clsnowrider.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Snow Rider 3D</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clpolytrackalt.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">PolyTrack</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clswordsandsandals.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Swords and Sandals</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clswordsandsandals2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Swords and Sandals 2</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clfridaynightfunkin.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">FNF</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clretrobowlfixed.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">RetroBowl</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clgeometrydashscratch.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Geometry Dash</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clemulator.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Emulator.JS</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/spacebar.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Spacebar Clicker</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/cl1v1lol.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">1v1lol</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clcookieclickercool.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Cookie Clicker</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clescaperoad2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Escape Road 2</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Fallout.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Fallout</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clgranny.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Granny</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('multi/drift/drift.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Drift Hunters</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/offlineparadise.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Offline Paradise</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/evilglitch.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Evil Glitch</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/sandgame.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Sand Game</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clbadpiggies.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Bad Piggies</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clbaldisbasicsremaster.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Baldi's Basics</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clbigneontowertinysquare.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Big Tower Tiny Square</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Highway Racer.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Highway Racer</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Spiral Roll.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Spiral Roll</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Play!.js.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Play!.js</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Death Runner 3D.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Death Runner 3D</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Hotline Miami.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Hotline Miami</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Steal Brainrot Online.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Steal Brainrot Online</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('multi/wb/index.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">WBWWB</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/sh1mmer.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">sh1mmer</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/ext.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">exthang3r</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('multi/auk/auk.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">auk</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/PPG.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">People Playground</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/slowroads.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">SlowRoads</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Soundboard.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-3D00 transform hover:-translate-y-1">Soundboard</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Hollowknight.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Hollow Knight</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/DOOM.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">DOOM</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Fancy Pants Adventure.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Fancy Pants Adventure</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Kindergarten.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Kindergarten</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Kindergarten 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Kindergarten 2</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Kindergarten 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Kindergarten 3</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/neigh.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">That's Not My Neighbor!</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Sandboxels.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Sandboxels</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Slime Rancher.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Slime Rancher</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/cldoblox.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Doblox</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/tomb.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Tomb of the Mask</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/tung.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">SAB</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Cuphead.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Cuphead</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/count.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Count Masters</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/foot.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Football Bros</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/over.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Getting Over It</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Growden.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">GAG</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/issac.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Binding of Issac</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/blah.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Thirty Dollar Website</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Smash Karts.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Smash Karts</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Bouncemasters.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Bounce Masters</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/City Smash.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">City Smash</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Slither.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Slither.io</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Doodle Jump.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Doodle Jump</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Blade Ball.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Blade Ball</a>
-            <a href="active/index.html" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">UltraViolet</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Parappa The Rapper.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Parappa The Rapper</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Clash Of Vikings.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Clash</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Shapez.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Shapez.io</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/The Legend of Zelda Ocarina of Time.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Ocarina of Time</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/OvO.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">OvO</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Undertale Yellow.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Undertale Yellow</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Gladihoppers.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Gladdihoppers</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/FNAF4.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">FNAF 4</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Basket Bros.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Basket Bros</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Station Saturn.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Station Saturn</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/omori.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">OMORI</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/repo.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">R.E.P.O</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Baseball Bros.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Baseball Bros</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Draw Joust.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Draw Joust</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Speed Stars.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Speed Stars</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Undertale.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Undertale</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/cl99nightsitf.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">99 Nights</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Postal.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Postal</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Basketball Stars.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Basketball Stars</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/nzp.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">NZ:P</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/The Impossible Quiz.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Impossible Quiz</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/fortnite.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Fortnite</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Buckshot Roulette.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Buckshot Roulette</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Escape Road.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Escape Road</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Burrito Bison.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Burrito Bison</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clbloodmoney.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Bloodmoney!</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clsilk.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Silk</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/bendy.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Bendy</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/exe.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Sonic.EXE</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/hcr.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Hill Climb Racing</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/ts.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Time Shooter 3</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Amanda the Adventurer.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Amanda the Adventurer</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Gobble.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Gobble</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Ragdoll Archers.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Ragdoll Archers</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/clironsnout.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Iron Snout</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/osu!.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">osu!</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Super Mario Bros.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">SMB</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Trivia Crack.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Trivia Crack</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Kart Bros.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Kart Bros</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Drive Mad.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Drive Mad</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Block Blast.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Block Blast</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Drift Boss.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Drift Boss</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Pizza Tower.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Pizza Tower</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Granny 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Granny 2</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/UPS Delivery.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">UPS Delivery</a>
-            <a href="javascript:void(0);" onclick="openInAboutBlank('games/Slope 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Slope 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Slender_ The 8 Pages.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Slender The 8 Pages</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Seat Jam 3D.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Seat Jam 3D</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Room Sort.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Room Sort</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Recoil.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Recoil</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Pizza Tower_ Scoutdigo.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Pizza Tower Scoutdigo</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Off.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Off</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Nubbys Number Factory.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Nubby's Number Factory</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Newgrounds Rumble.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Newgrounds Rumble</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Metal Gear Solid.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Metal Gear Solid</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Mega Car Jumps.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Mega Car Jumps</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Maze Speedrun.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Maze Speedrun</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/JustFall.lol.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">JustFall.lol</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Journey Downhill.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Journey Downhill</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Idle Mining Empire.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Idle Mining Empire</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Idle Lumber Inc.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Idle Lumber Inc</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/House of Hazards.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">House of Hazards</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Happy Wheels.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Happy Wheels</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/groon groon, babey!.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">groon groon, babey!</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Friday Night Funkin vs. QT.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Friday Night Funkin' vs. QT</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Generic Fighter Maybe.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Generic Fighter Maybe</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Fortzone Battle Royale.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Fortzone Battle Royale</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Flick Goal.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Flick Goal</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Draw the Line.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Draw the Line</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Coreball.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Coreball</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Choppy Orc.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Choppy Orc</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/CG FC 25.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">CG FC 25</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Car Survival 3D.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Car Survival 3D</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Blocky Snakes.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Blocky Snakes</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/BuildNow.gg.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">BuildNow.gg</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Shipo.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Shipo.io</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Harvest.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Harvest.io</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/EvoWars.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">EvoWars.io</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Brawl Guys.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Brawl Guys.io</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Snowbattle.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Snowbattle.io</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/State.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">State.io</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/War Regions.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">War Regions</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wall Crawler.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wall Crawler</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Twisted Rope 3D.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Twisted Rope 3D</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Tube Jumpers.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Tube Jumpers</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Tiny Fishing.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Tiny Fishing</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Tomodachi Collection.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Tomodachi Collection</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Three Goblets.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Three Goblets</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/TileTopia.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">TileTopia</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Territorial.io.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Territorial.io</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Celeste.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Celeste</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Quake III Arena.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Quake III Arena</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Tattletail.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Tattletail</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Schoolboy Runaway.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Schoolboy Runaway</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Oneshot (LEGACY).html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Oneshot</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Ice Dodo.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Ice Dodo</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Attack Hole.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Attack Hole</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Hide N Seek.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Hide N Seek</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Magic Tiles 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Magic Tiles 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Stacky Dash.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Stacky Dash</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Tall Man Run.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Tall Man Run</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Monster Tracks.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Monster Tracks</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Rolly Vortex.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Rolly Vortex</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Superhot.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Superhot</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Rainbow Obby.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Rainbow Obby</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Sandtris.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Sandtris</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Kitty Toy.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Kitty Toy</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Infinimoes.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Infinimoes</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wheely 8.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wheely 8</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wheely 7.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wheely 7</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wheely 6.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wheely 6</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wheely 5.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wheely 5</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wheely 4.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wheely 4</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wheely 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wheely 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wheely.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wheely</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Wheely 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Wheely 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Touhou_ Luminous Strike.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Touhou Luminous Strike</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Touhou Mother.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Touhou Mother</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Toss The Turtle.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Toss The Turtle</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/They Are Coming.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">They Are Coming</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/The Deadseat.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">The Deadseat</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Tag.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Tag</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Swordfight!!.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Swordfight!!</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Stone Grass Mowing Simulator.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Stone Grass Mowing</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Stickman Golf.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Stickman Golf</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Stickman Climb.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Stickman Climb</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Run 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Run 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Run 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Run 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Run 1.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Run 1</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Rooftop Snipers 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Rooftop Snipers 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Rooftop Snipers.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Rooftop Snipers</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Red Ball 4 Vol. 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Red Ball 4 Vol. 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Red Ball 4 Vol. 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Red Ball 4 Vol. 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Red Ball 4.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Red Ball 4</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Red Ball 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Red Ball 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Red Ball 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Red Ball 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Red Ball.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Red Ball</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Plants vs. Zombies 2 Gardenless.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">PvZ 2 Gardenless</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Plants vs Zombies.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Plants vs Zombies</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Wingeria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Wingeria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Taco Mia.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Taco Mia</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Sushiria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Sushiria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Scooperia.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Scooperia</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Pizeria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Pizeria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Pastaria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Pastaria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Pancakeria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Pancakeria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Hot Doggeria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Hot Doggeria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Freezeria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Freezeria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Donuteria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Donuteria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Cupcakeria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Cupcakeria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Cheeseria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Cheeseria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Burgeria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Burgeria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Papas Bakeria.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Papa's Bakeria</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Mutilate a Doll 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Mutilate a Doll 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Minesweeper Plus.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Minesweeper Plus</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Granny 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Granny 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Duck Life 5.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Duck Life 5</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Duck Life 4.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Duck Life 4</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Duck Life 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Duck Life 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Duck Life 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Duck Life 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Doom 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Doom 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Doom 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Doom 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Daily Dadish.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Daily Dadish</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Dadish 3D.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Dadish 3D</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Dadish 3.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Dadish 3</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Dadish 2.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Dadish 2</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/Dadish.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Dadish</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/DOS.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">DOS Emulator</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/comments.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Comments</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/whiteboard.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Whiteboard</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/minesweeper.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Minesweeper</a>
-<a href="javascript:void(0);" onclick="openInAboutBlank('games/click.html')" class="bg-gray-800 hover:bg-purple-600 text-white font-semibold py-4 px-2 rounded-lg shadow-lg text-center transition-all duration-300 transform hover:-translate-y-1">Click Challenge</a>
-        </main>
+        doc.title = name;
+        link.rel = "icon";
+        link.href = icon;
+
+        iframe.src = location.href
+        style.position = "fixed"
+        style.top = style.bottom = style.left = style.right = 0
+        style.border = style.outline = "none"
+        style.width = style.height = "100%"
+
+        doc.head.appendChild(link);
+        doc.body.appendChild(iframe)
+        location.replace("https://classroom.google.com")
+    }
+}
+</script>
+<header>
+  <input id="search" placeholder="Search">
+  <select id="tags"><option value="">All</option><option>port</option><option>flash</option><option>emulator</option><option>tools</option><option>fnf</option><option>n64</option></select>
+  <button id="refresh">Refresh</button>
+</header>
+
+<div id="container"><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/0.png"><div class="zone-name">Bowmasters</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/1.png"><div class="zone-name">OvO</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/2.png"><div class="zone-name">OvO 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/3.png"><div class="zone-name">OvO 3 Dimensions</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/4.png"><div class="zone-name">Gladihoppers</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/5.png"><div class="zone-name">Ice Dodo</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/6.png"><div class="zone-name">Block Blast</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/7.png"><div class="zone-name">Jetpack Joyride</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/8.png"><div class="zone-name">Friday Night Funkin</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/9.png"><div class="zone-name">Sprunki</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/10.png"><div class="zone-name">Temple Run 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/11.png"><div class="zone-name">Stickman Hook</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/13.png"><div class="zone-name">Attack Hole</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/14.png"><div class="zone-name">Bridge Race</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/15.png"><div class="zone-name">Color Water Sort 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/16.png"><div class="zone-name">Hide N Seek</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/17.png"><div class="zone-name">Magic Tiles 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/18.png"><div class="zone-name">Stacky Dash</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/19.png"><div class="zone-name">Supreme Duelist</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/20.png"><div class="zone-name">Tall Man Run</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/21.png"><div class="zone-name">Turbo Stars</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/22.png"><div class="zone-name">Mob Control HTML5</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/23.png"><div class="zone-name">Pou</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/24.png"><div class="zone-name">Crossy Road</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/25.png"><div class="zone-name">Basket Battle</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/26.png"><div class="zone-name">Amaze</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/27.png"><div class="zone-name">Geometry Dash Lite</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/28.png"><div class="zone-name">Basketball Frvr</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/29.png"><div class="zone-name">Bazooka Boy</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/30.png"><div class="zone-name">Bottle Jump 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/31.png"><div class="zone-name">Color Match</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/32.png"><div class="zone-name">Dig Deep</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/33.png"><div class="zone-name">Retro Bowl</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/34.png"><div class="zone-name">Retro Bowl College</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/36.png"><div class="zone-name">Monster Tracks</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/37.png"><div class="zone-name">Gobble</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/38.png"><div class="zone-name">Five Nights at Freddy's</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/39.png"><div class="zone-name">Five Nights at Freddy's 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/40.png"><div class="zone-name">Five Nights at Freddy's 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/41.png"><div class="zone-name">Five Nights at Freddy's 4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/42.png"><div class="zone-name">Road of Fury</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/43.png"><div class="zone-name">Driven Wild</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/44.png"><div class="zone-name">Ragdoll Hit</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/45.png"><div class="zone-name">Vex 1</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/46.png"><div class="zone-name">Vex 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/47.png"><div class="zone-name">Vex 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/48.png"><div class="zone-name">Vex 3 XMAS</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/49.png"><div class="zone-name">Vex 4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/50.png"><div class="zone-name">Vex 5</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/51.png"><div class="zone-name">Vex 6</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/52.png"><div class="zone-name">Vex 7</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/53.png"><div class="zone-name">Vex 8</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/54.png"><div class="zone-name">Vex Challenges</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/55.png"><div class="zone-name">Vex X3M</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/56.png"><div class="zone-name">Vex X3M 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/58.png"><div class="zone-name">1v1.LoL</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/59.png"><div class="zone-name">A Dance of Fire and Ice</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/60.png"><div class="zone-name">Achievement Unlocked</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/61.png"><div class="zone-name">Achievement Unlocked 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/62.png"><div class="zone-name">Achievement Unlocked 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/63.png"><div class="zone-name">Angry Birds</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/64.png"><div class="zone-name">Backrooms</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/65.png"><div class="zone-name">Baldi's Basics</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/66.png"><div class="zone-name">Basket Random</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/67.png"><div class="zone-name">Big Tower Tiny Square</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/68.png"><div class="zone-name">Big NEON Tower Tiny Square</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/69.png"><div class="zone-name">Big ICE Tower Tiny Square</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/70.png"><div class="zone-name">BitLife</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/71.png"><div class="zone-name">Bloons TD</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/72.png"><div class="zone-name">Bloons TD 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/73.png"><div class="zone-name">Bloons TD 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/74.png"><div class="zone-name">Bloons TD 4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/75.png"><div class="zone-name">Bloons TD 5</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/76.png"><div class="zone-name">Bob The Robber 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/77.png"><div class="zone-name">Boxing Random</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/78.png"><div class="zone-name">Burrito Bison</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/79.png"><div class="zone-name">Cannon Basketball</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/80.png"><div class="zone-name">Cannon Basketball 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/81.png"><div class="zone-name">Cluster Rush</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/82.png"><div class="zone-name">Cookie Clicker</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/83.png"><div class="zone-name">Coreball</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/84.png"><div class="zone-name">Cubefield</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/85.png"><div class="zone-name">Cut the Rope</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/86.png"><div class="zone-name">Draw Climber</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/87.png"><div class="zone-name">Emulator.JS</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/88.png"><div class="zone-name">Fireboy and Watergirl 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/89.png"><div class="zone-name">Fireboy and Watergirl 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/90.png"><div class="zone-name">Granny</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/91.png"><div class="zone-name">Gunspin</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/92.png"><div class="zone-name">Highway Racer 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/93.png"><div class="zone-name">Johnny Trigger</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/94.png"><div class="zone-name">Journey Downhill</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/95.png"><div class="zone-name">Line Rider</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/96.png"><div class="zone-name">Moto X3M</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/97.png"><div class="zone-name">Moto X3M 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/98.png"><div class="zone-name">Moto X3M 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/99.png"><div class="zone-name">Moto X3M Spooky</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/100.png"><div class="zone-name">Moto X3M Winter</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/101.png"><div class="zone-name">Ninja vs EvilCorp</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/102.png"><div class="zone-name">Paper.io 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/103.png"><div class="zone-name">The World's Hardest Game</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/104.png"><div class="zone-name">The World's Hardest Game 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/105.png"><div class="zone-name">The World's Hardest Game 4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/106.png"><div class="zone-name">This Is The Only Level</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/107.png"><div class="zone-name">This Is The Only Level 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/108.png"><div class="zone-name">Tiny Fishing</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/109.png"><div class="zone-name">Tomb Of The Mask</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/110.png"><div class="zone-name">Toss The Turtle</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/111.png"><div class="zone-name">Tube Jumpers</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/112.png"><div class="zone-name">Wordle</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/113.png"><div class="zone-name">Ruffle</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/114.png"><div class="zone-name">2048</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/115.png"><div class="zone-name">8 Ball Pool</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/116.png"><div class="zone-name">Offroad Mountain Bike</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/117.png"><div class="zone-name">Space Waves</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/118.png"><div class="zone-name">Solar Smash</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/119.png"><div class="zone-name">Snow Rider 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/120.png"><div class="zone-name">Fortzone Battle Royale</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/121.png"><div class="zone-name">Brawl Guys.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/122.png"><div class="zone-name">Survival Race</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/123.png"><div class="zone-name">Poly Track</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/124.png"><div class="zone-name">Moto X3M Pool Party</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/125.png"><div class="zone-name">Granny 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/126.png"><div class="zone-name">Granny 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/127.png"><div class="zone-name">Fashion Battle</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/128.png"><div class="zone-name">Slice it All</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/129.png"><div class="zone-name">Flappy Bird</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/130.png"><div class="zone-name">osu!</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/146.png"><div class="zone-name">8 Ball Classic</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/147.png"><div class="zone-name">Angry Birds Showdown</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/148.png"><div class="zone-name">Archery World Tour</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/149.png"><div class="zone-name">Ball Blast</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/150.png"><div class="zone-name">Cannon Balls 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/151.png"><div class="zone-name">Chess Classic</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/152.png"><div class="zone-name">Draw the Line</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/153.png"><div class="zone-name">Flappy Dunk</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/154.png"><div class="zone-name">Fork n Sausage</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/155.png"><div class="zone-name">Guess Their Answer</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/156.png"><div class="zone-name">Harvest.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/157.png"><div class="zone-name">Hill Climb Racing Lite</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/158.png"><div class="zone-name">Pac-Man Superfast</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/159.png"><div class="zone-name">Parking Rush</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/160.png"><div class="zone-name">Race Master 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/161.png"><div class="zone-name">State.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/162.png"><div class="zone-name">Tower Crash 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/163.png"><div class="zone-name">Trivia Crack</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/164.png"><div class="zone-name">Crazy Cattle 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/165.png"><div class="zone-name">Cheese Chompers 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/166.png"><div class="zone-name">Bad Parenting 1</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/167.png"><div class="zone-name">Blade Ball</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/168.png"><div class="zone-name">Blocky Snakes</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/169.png"><div class="zone-name">Bloxorz</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/170.png"><div class="zone-name">Big Tower Tiny Square 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/171.png"><div class="zone-name">Candy Crush</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/172.png"><div class="zone-name">Melon Playground</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/173.png"><div class="zone-name">Drift Hunters</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/174.png"><div class="zone-name">World Box</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/175.png"><div class="zone-name">Run 1</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/176.png"><div class="zone-name">Run 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/177.png"><div class="zone-name">Run 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/178.png"><div class="zone-name">Swords and Souls</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/179.png"><div class="zone-name">Soundboard</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/180.png"><div class="zone-name">n-gon</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/181.png"><div class="zone-name">Minecraft 1.8.8</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/182.png"><div class="zone-name">Minecraft 1.12.2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/183.png"><div class="zone-name">Minecraft 1.21.4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/185.png"><div class="zone-name">Five Nights at Freddy's: Sister Location</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/186.png"><div class="zone-name">Ragdoll Archers</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/187.png"><div class="zone-name">Papers, Please</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/188.png"><div class="zone-name">Scrap Metal 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/190.png"><div class="zone-name">Five Nights at Freddy's: World</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/191.png"><div class="zone-name">Five Nights at Freddy's: Pizza Simulator</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/192.png"><div class="zone-name">Five Nights at Freddy's: Ultimate Custom Night</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/193.png"><div class="zone-name">Do NOT Take This Cat Home</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/194-m.png"><div class="zone-name">People Playground</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/195.png"><div class="zone-name">R.E.P.O</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/196.png"><div class="zone-name">ULTRAKILL</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/197.png"><div class="zone-name">Elastic Man</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/198.png"><div class="zone-name">Slope</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/199.png"><div class="zone-name">Time Shooter 1</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/200.png"><div class="zone-name">Time Shooter 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/201.png"><div class="zone-name">Time Shooter 3: SWAT</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/202.png"><div class="zone-name">Carrom Clash</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/203.png"><div class="zone-name">DOOM</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/204.png"><div class="zone-name">Five Nights at Winston's</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/205.png"><div class="zone-name">Buckshot Roulette</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/206.png"><div class="zone-name">Tunnel Rush</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/207.png"><div class="zone-name">Snowbattle.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/208.png"><div class="zone-name">Rolly Vortex</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/209.png"><div class="zone-name">Draw the Hill</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/210.png"><div class="zone-name">Dragon vs Bricks</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/211.png"><div class="zone-name">Death Run 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/212.png"><div class="zone-name">Cut the Rope</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/213.png"><div class="zone-name">Cut the Rope: Time Travel</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/214.png"><div class="zone-name">Cut the Rope: Holiday Gift</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/215.png"><div class="zone-name">Bendy and the Ink Machine</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/216.png"><div class="zone-name">That's Not My Neighbor</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/217.png"><div class="zone-name">Hotline Miami</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/218.png"><div class="zone-name">Papa's Bakeria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/219.png"><div class="zone-name">Papa's Burgeria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/220.png"><div class="zone-name">Papa's Cheeseria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/221.png"><div class="zone-name">Papa's Cupcakeria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/222.png"><div class="zone-name">Papa's Donuteria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/223.png"><div class="zone-name">Papa's Freezeria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/224.png"><div class="zone-name">Papa's Hot Doggeria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/225.png"><div class="zone-name">Papa's Pancakeria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/226.png"><div class="zone-name">Papa's Pastaria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/227.png"><div class="zone-name">Papa's Pizeria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/228.png"><div class="zone-name">Papa's Scooperia</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/229.png"><div class="zone-name">Papa's Sushiria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/230.png"><div class="zone-name">Papa's Taco Mia</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/231.png"><div class="zone-name">Papa's Wingeria</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/232.png"><div class="zone-name">Plants vs Zombies</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/233.png"><div class="zone-name">Superhot</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/234.png"><div class="zone-name">Duck Life</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/235.png"><div class="zone-name">Duck Life 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/236.png"><div class="zone-name">Duck Life 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/237.png"><div class="zone-name">Duck Life 4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/238.png"><div class="zone-name">Duck Life 5</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/239.png"><div class="zone-name">Red Ball</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/240.png"><div class="zone-name">Red Ball 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/241.png"><div class="zone-name">Red Ball 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/242.png"><div class="zone-name">Red Ball 4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/243.png"><div class="zone-name">Red Ball 4 Vol. 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/244.png"><div class="zone-name">Red Ball 4 Vol. 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/245.png"><div class="zone-name">Wheely</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/246.png"><div class="zone-name">Wheely 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/247.png"><div class="zone-name">Wheely 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/248.png"><div class="zone-name">Wheely 4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/249.png"><div class="zone-name">Wheely 5</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/250.png"><div class="zone-name">Wheely 6</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/251.png"><div class="zone-name">Wheely 7</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/252.png"><div class="zone-name">Wheely 8</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/253.png"><div class="zone-name">Chat Bot (A.|.I)</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/255.png"><div class="zone-name">Crazy Chicken 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/256.png"><div class="zone-name">Crazy Kitty 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/257.png"><div class="zone-name">Google Baseball</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/258.png"><div class="zone-name">A Bite at Freddy's</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/259.png"><div class="zone-name">Class of '09</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/260.png"><div class="zone-name">RE:RUN</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/261.png"><div class="zone-name">Fruit Ninja</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/262.png"><div class="zone-name">Half Life</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/263.png"><div class="zone-name">Quake III Arena</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/264.png"><div class="zone-name">Escape Road</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/265.png"><div class="zone-name">Escape Road 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/266.png"><div class="zone-name">Speed Stars</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/267.png"><div class="zone-name">Pizza Tower</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/268.png"><div class="zone-name">Bacon May Die</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/269.png"><div class="zone-name">Bad Ice Cream</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/270.png"><div class="zone-name">Bad Ice Cream 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/271.png"><div class="zone-name">Bad Ice Cream 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/272.png"><div class="zone-name">Basketball Stars</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/273.png"><div class="zone-name">BlockPost</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/274.png"><div class="zone-name">CircloO</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/275.png"><div class="zone-name">CircloO 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/276.png"><div class="zone-name">Drift Boss</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/277.png"><div class="zone-name">Evil Glitch</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/278.png"><div class="zone-name">Madalin Stunt Cars 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/279.png"><div class="zone-name">Madalin Stunt Cars 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/280.png"><div class="zone-name">Papery Planes</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/281.png"><div class="zone-name">Pixel Gun Survival</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/282.png"><div class="zone-name">Protektor</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/283.png"><div class="zone-name">Rooftop Snipers</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/284.png"><div class="zone-name">War The Knights</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/285.png"><div class="zone-name">Basket Bros</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/286.png"><div class="zone-name">Endoparasitic</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/287.png"><div class="zone-name">Riddle School</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/288.png"><div class="zone-name">Riddle School 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/289.png"><div class="zone-name">Riddle School 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/290.png"><div class="zone-name">Riddle School 4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/291.png"><div class="zone-name">Riddle School 5</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/292.png"><div class="zone-name">Riddle Transfer</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/293.png"><div class="zone-name">Riddle Transfer 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/294.png"><div class="zone-name">Idle Dice</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/295.png"><div class="zone-name">12 Mini Battles</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/296.png"><div class="zone-name">Play!.js</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/297.png"><div class="zone-name">Minecraft 1.5.2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/298.png"><div class="zone-name">Minecraft Alpha 1.2.6</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/299.png"><div class="zone-name">Minecraft Beta 1.3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/300.png"><div class="zone-name">Minecraft Beta 1.7.3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/301.png"><div class="zone-name">Minecraft Indev</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/302.png"><div class="zone-name">Little Runmo</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/303.png"><div class="zone-name">Territorial.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/304.png"><div class="zone-name">Alien Hominid</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/305.png"><div class="zone-name">Tanuki Sunset</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/306.png"><div class="zone-name">Shipo.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/307.png"><div class="zone-name">Rainbow Obby</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/308.png"><div class="zone-name">Nazi Zombies: Portable</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/309.png"><div class="zone-name">Sandboxels</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/310.png"><div class="zone-name">Dreadhead Parkour</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/311.png"><div class="zone-name">Sandtris</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/312.png"><div class="zone-name">BlackJack</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/313.png"><div class="zone-name">Minesweeper Mania</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/314.png"><div class="zone-name">Super Mario 63</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/315.png"><div class="zone-name">Jelly Mario</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/316.png"><div class="zone-name">Angry Birds Chrome</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/317.png"><div class="zone-name">sandspiel</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/318.png"><div class="zone-name">Side Effects</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/319.png"><div class="zone-name">Build a Queen</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/320.png"><div class="zone-name">3D Bowling</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/321.png"><div class="zone-name">Room Sort</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/322.png"><div class="zone-name">Sushi Roll</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/323.png"><div class="zone-name">Find the Alien</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/324.png"><div class="zone-name">Maze Speedrun</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/325.png"><div class="zone-name">Kitchen Bazar</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/326.png"><div class="zone-name">Pokey Ball</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/327.png"><div class="zone-name">Slime.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/328.png"><div class="zone-name">Om Nom Run</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/329.png"><div class="zone-name">TileTopia</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/330.png"><div class="zone-name">BitPlanes</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/331.png"><div class="zone-name">Crazy Cars</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/332.png"><div class="zone-name">Going Balls</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/333.png"><div class="zone-name">Fancy Pants Adventure</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/334.png"><div class="zone-name">Fancy Pants Adventure 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/335.png"><div class="zone-name">Fancy Pants Adventure 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/336.png"><div class="zone-name">Fancy Pants Adventure 4 Part 1</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/337.png"><div class="zone-name">Fancy Pants Adventure 4 Part 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/338.png"><div class="zone-name">Getaway Shootout</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/339.png"><div class="zone-name">House of Hazards</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/340.png"><div class="zone-name">Learn to Fly</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/341.png"><div class="zone-name">Learn to Fly 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/342.png"><div class="zone-name">Learn to Fly 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/343.png"><div class="zone-name">Learn to Fly Idle</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/344.png"><div class="zone-name">Raft Wars</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/345.png"><div class="zone-name">Raft Wars 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/346.png"><div class="zone-name">Sort the Court</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/347.png"><div class="zone-name">SpiderDoll</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/348.png"><div class="zone-name">They Are Coming</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/349.png"><div class="zone-name">Spiral Roll</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/350.png"><div class="zone-name">Binding of Issac: Wrath of the Lamb</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/351.png"><div class="zone-name">Happy Sheepies</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/352.png"><div class="zone-name">DON'T YOU LECTURE ME</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/353.png"><div class="zone-name">Blumgi Rocket</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/354.png"><div class="zone-name">Adventure Capatalist</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/355.png"><div class="zone-name">Dadish 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/356.png"><div class="zone-name">Dadish 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/357.png"><div class="zone-name">Dadish</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/358.png"><div class="zone-name">Dadish 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/359.png"><div class="zone-name">Daily Dadish</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/360.png"><div class="zone-name">EvoWars.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/361.png"><div class="zone-name">Google Feud</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/362.png"><div class="zone-name">Idle Breakout</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/363.png"><div class="zone-name">Idle Lumber Inc</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/364.png"><div class="zone-name">Idle Mining Empire</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/365.png"><div class="zone-name">JustFall.lol</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/366.png"><div class="zone-name">Merge Harvest</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/367.png"><div class="zone-name">Parking Fury 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/368.png"><div class="zone-name">Slope 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/369.png"><div class="zone-name">Slowroads</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/370.png"><div class="zone-name">Smash Karts</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/371.png"><div class="zone-name">Stickman Fight Ragdoll</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/372.png"><div class="zone-name">Stickman Boost</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/373.png"><div class="zone-name">Stickman Climb</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/374.png"><div class="zone-name">Stickman Golf</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/375.png"><div class="zone-name">2048 Merge Run</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/376.png"><div class="zone-name">Build a Big Army</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/377.png"><div class="zone-name">Build a Plane</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/378.png"><div class="zone-name">Camouflage and Sniper</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/379.png"><div class="zone-name">Car Survival 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/380.png"><div class="zone-name">City Defense</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/381.png"><div class="zone-name">Clothing Shop 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/382.png"><div class="zone-name">Cool Cars Run 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/383.png"><div class="zone-name">Crush Cars 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/384.png"><div class="zone-name">Destiny Run 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/385.png"><div class="zone-name">Destroy The Car 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/386.png"><div class="zone-name">Diamond Seeker</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/387.png"><div class="zone-name">Draw Joust</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/388.png"><div class="zone-name">Evolving Bombs 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/389.png"><div class="zone-name">Fire and Frost Master</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/390.png"><div class="zone-name">Fitness Empire</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/391.png"><div class="zone-name">Flick Goal</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/392.png"><div class="zone-name">Flip Master</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/393.png"><div class="zone-name">Giant Wanted</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/394.png"><div class="zone-name">Gun Clone</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/395.png"><div class="zone-name">Gun Runner</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/396.png"><div class="zone-name">Kaji Run</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/397.png"><div class="zone-name">Make a SuperBoat</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/398.png"><div class="zone-name">Makeover Run</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/399.png"><div class="zone-name">Mega Car Jumps</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/400.png"><div class="zone-name">Money Rush</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/401.png"><div class="zone-name">Monster Box 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/402.png"><div class="zone-name">Office Fight</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/403.png"><div class="zone-name">Robot Invasion</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/404.png"><div class="zone-name">Seat Jam 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/405.png"><div class="zone-name">Shooting Master</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/406.png"><div class="zone-name">Supermarket 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/407.png"><div class="zone-name">Survive to Victory</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/408.png"><div class="zone-name">Telekinesis Attack</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/409.png"><div class="zone-name">Telekinesis Car</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/410.png"><div class="zone-name">Telekinesis Drive</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/411.png"><div class="zone-name">Telekinesis</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/412.png"><div class="zone-name">Triple Match 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/413.png"><div class="zone-name">Tug of War with Cars</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/414.png"><div class="zone-name">Twerk Race 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/415.png"><div class="zone-name">Twisted Rope 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/416.png"><div class="zone-name">Wall Crawler</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/417.png"><div class="zone-name">War Regions</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/418.png"><div class="zone-name">Weapon Craft Run</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/419.png"><div class="zone-name">Weapon Upgrade Rush</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/420.png"><div class="zone-name">Weapon Scale</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/421.png"><div class="zone-name">Rich Run 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/422.png"><div class="zone-name">High Heels</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/423.png"><div class="zone-name">WebFishing</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/426.png"><div class="zone-name">Andy's Apple Farm</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/427.png"><div class="zone-name">OMORI</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/428.png"><div class="zone-name">Five Nights at Freddy's 4: Halloween</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/429.png"><div class="zone-name">Code Editor</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/430.png"><div class="zone-name">10 Minutes Till Dawn</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/431.png"><div class="zone-name">99 Balls</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/432.png"><div class="zone-name">Abandoned</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/433.png"><div class="zone-name">Yume Nikki</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/434.png"><div class="zone-name">God's Flesh</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/435.png"><div class="zone-name">A Small World Cup</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/436.png"><div class="zone-name">Awesome Tanks</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/437.png"><div class="zone-name">Bouncemasters</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/438.png"><div class="zone-name">Awesome Tanks 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/439.png"><div class="zone-name">Bank Robbery 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/440.png"><div class="zone-name">Celeste PICO</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/441.png"><div class="zone-name">Kitty Toy</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/442.png"><div class="zone-name">Infinimoes</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/443.png"><div class="zone-name">Adventure Drivers</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/444.png"><div class="zone-name">Ages of Conflict</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/445.png"><div class="zone-name">Kindergarten</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/446.png"><div class="zone-name">Kindergarten 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/447.png"><div class="zone-name">Nijika's Ahoge</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/448.png"><div class="zone-name">Aquapark.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/449.png"><div class="zone-name">City Smash</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/450.png"><div class="zone-name">Amanda the Adventurer</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/451.png"><div class="zone-name">Slender: The 8 Pages</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/452.png"><div class="zone-name">Station 141</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/453.png"><div class="zone-name">Station Saturn</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/454.png"><div class="zone-name">BLOODMONEY!</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/455.png"><div class="zone-name">BERGENTRUCK 201x</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/456.png"><div class="zone-name">Undertale Yellow</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/457.png"><div class="zone-name">Raft</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/458.png"><div class="zone-name">The Deadseat</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/459.png"><div class="zone-name">The Man In The Window</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/460.png"><div class="zone-name">Fears to Fathom: Home Alone</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/461.png"><div class="zone-name">Slither.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/462.png"><div class="zone-name">DEAD PLATE</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/463.png"><div class="zone-name">Lacey's Flash Games</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/464.png"><div class="zone-name">Choppy Orc</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/465.png"><div class="zone-name">Cuphead</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/466.png"><div class="zone-name">Baldi's Basics Classic Remastered</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/467.png"><div class="zone-name">Baldi's Basics Plus</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/468.png"><div class="zone-name">Hollow Knight</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/469.png"><div class="zone-name">sandstone</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/470.png"><div class="zone-name">Doodle Jump</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/471.png"><div class="zone-name">Madness Combat: Project Nexus (classic)</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/472.png"><div class="zone-name">Bad Time Simulator</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/473.png"><div class="zone-name">Spacebar Clicker</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/474.png"><div class="zone-name">Friday Night Funkin': V.S. Whitty</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/475.png"><div class="zone-name">Friday Night Funkin': B-Sides</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/476.png"><div class="zone-name">Friday Night Funkin': Vs. Hex</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/477.png"><div class="zone-name">Friday Night Funkin': Vs. Hatsune Miku</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/478.png"><div class="zone-name">Friday Night Funkin': Neo</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/479.png"><div class="zone-name">Steal A Brainrot</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/480.png"><div class="zone-name">Friday Night Funkin': Sarvente's Mid-Fight Masses</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/481.png"><div class="zone-name">Friday Night Funkin': vs. Tricky</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/482.png"><div class="zone-name">Human Expenditure Program</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/483.png"><div class="zone-name">Friday Night Funkin': Hit Single Real</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/484.png"><div class="zone-name">Friday Night Funkin': Creepypasta JP</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/485.png"><div class="zone-name">Friday Night Funkin': vs. Garcello</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/486.png"><div class="zone-name">Friday Night Funkin': Sonic Legacy</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/487.png"><div class="zone-name">Friday Night Funkin': vs. QT</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/488.png"><div class="zone-name">Friday Night Funkin': Mistful Crimson Morning Reboot</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/489.png"><div class="zone-name">Friday Night Funkin': Indie Cross</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/490.png"><div class="zone-name">Rooftop Snipers 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/491.png"><div class="zone-name">I woke up next to you again.</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/492.png"><div class="zone-name">UNDERWHEELS</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/493.png"><div class="zone-name">RigBMX</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/494.png"><div class="zone-name">RigBMX 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/495.png"><div class="zone-name">groon groon, babey!</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/496.png"><div class="zone-name">Friday Night Funkin': Jeffy's Endless Aethos</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/497.png"><div class="zone-name">Friday Night Funkin': vs. BOPCITY</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/498.png"><div class="zone-name">Friday Night Funkin': 17 Bucks: Floor 1</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/499.png"><div class="zone-name">Friday Night Funkin': FIRE IN THE HOLE: Lobotomy Dash Funkin'</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/500.png"><div class="zone-name">Friday Night Funkin': TWIDDLEFINGER</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/501.png"><div class="zone-name">Kindergarten 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/502.png"><div class="zone-name">Stick With It</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/503.png"><div class="zone-name">Five Nights at Candy's</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/504.png"><div class="zone-name">Five Nights at Candy's 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/505.png"><div class="zone-name">Pokemon Red</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/506.png"><div class="zone-name">Pokemon Emerald</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/507.png"><div class="zone-name">The Impossible Quiz</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/508.png"><div class="zone-name">Super Mario Bros</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/509.png"><div class="zone-name">Friday Night Funkin’ Soft</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/510.png"><div class="zone-name">Tomodachi Collection</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/511.png"><div class="zone-name">Doge Miner</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/512.png"><div class="zone-name">Final Earth 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/513.png"><div class="zone-name">Swordfight!!</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/514.png"><div class="zone-name">PortaBoy+</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/515.png"><div class="zone-name">PacMan (Horror)</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/516.png"><div class="zone-name">Oshi Oshi Punch!</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/517.png"><div class="zone-name">Nubby's Number Factory</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/518.png"><div class="zone-name">Touhou: Luminous Strike</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/519.png"><div class="zone-name">Generic Fighter Maybe</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/520.png"><div class="zone-name">Dan The Man</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/521.png"><div class="zone-name">Bust a Loop</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/522.png"><div class="zone-name">Bad Monday Simulator</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/523.png"><div class="zone-name">Touhou Mother</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/524.png"><div class="zone-name">Parappa The Rapper</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/525.png"><div class="zone-name">Friday Night Funkin': Darkness Takeover</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/526.png"><div class="zone-name">SpongeBob SquarePants: Land Ho!</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/527.png"><div class="zone-name">SpongeBob SquarePants: SpongeBob Run</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/528.png"><div class="zone-name">SpongeBob SquarePants: Squidward's Sizzlin' Scare</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/529.png"><div class="zone-name">SpongeBob SquarePants: Sandy's Sponge Stacker</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/530.png"><div class="zone-name">SpongeBob SquarePants: Tasty Pastry Party</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/531.png"><div class="zone-name">SpongeBob SquarePants: The Kah-Ray-Tay Squid</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/532.png"><div class="zone-name">SpongeBob SquarePants: WereSquirrel</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/533.png"><div class="zone-name">SpongeBob SquarePants: Krabby Katch</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/534.png"><div class="zone-name">Teen Titans GO!: Jump Jousts</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/535.png"><div class="zone-name">Teen Titans GO!: Jump Jousts 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/536.png"><div class="zone-name">Cat Connection</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/537.png"><div class="zone-name">Cat Gunner: Super Zombie Shoot</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/538.png"><div class="zone-name">Love Letters</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/539.png"><div class="zone-name">Chiikawa Puzzle</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/540.png"><div class="zone-name">myTeardrop</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/541.png"><div class="zone-name">Friday Night Funkin': Pibby: Apocalypse</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/542.png"><div class="zone-name">Karlson</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/543.png"><div class="zone-name">Jelly Drift</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/544.png"><div class="zone-name">Plinko</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/545.png"><div class="zone-name">Clash Of Vikings</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/546.png"><div class="zone-name">Recoil</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/547.png"><div class="zone-name">Baseball Bros</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/548.png"><div class="zone-name">Football Bros</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/549.png"><div class="zone-name">Sonic the Hedgehog 2: Community's Cut</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/550.png"><div class="zone-name">Sonic the Hedgehog 3: Angel Island Remastered</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/551.png"><div class="zone-name">Hypper Sandbox</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/552.png"><div class="zone-name">Aviamasters</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/553.png"><div class="zone-name">Rolling Sky</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/554.png"><div class="zone-name">Yandere Simulator</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/555.png"><div class="zone-name">Friday Night Funkin VS. KAPI</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/556.png"><div class="zone-name">Friday Night Funkin VS. Sky</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/557.png"><div class="zone-name">Getting Over It with Bennett Foddy</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/558.png"><div class="zone-name">Friday Night Funkin Vs. Cyber Sensation</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/559.png"><div class="zone-name">Friday Night Funkin vs Shaggy</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/560.png"><div class="zone-name">Deltatraveler</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/561.png"><div class="zone-name">BitGun.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/562.png"><div class="zone-name">Boom Slingers: Reboom</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/563.png"><div class="zone-name">CG FC 25</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/564.png"><div class="zone-name">Count Masters: Stickman Games</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/565.png"><div class="zone-name">Dalgona Candy Honeycomb Cookie</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/567.png"><div class="zone-name">Highway Racer</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/568.png"><div class="zone-name">Highway Racer 2 REMASTERED</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/569.png"><div class="zone-name">Hula Hoop Race</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/570.png"><div class="zone-name">Jelly Restaurant</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/571.png"><div class="zone-name">Layers Roll</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/572.png"><div class="zone-name">Lazy Jumper</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/573.png"><div class="zone-name">Man Runner 2048</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/574.png"><div class="zone-name">Pottery Master</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/575.png"><div class="zone-name">Shovel 3D</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/576.png"><div class="zone-name">Sky Riders</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/577.png"><div class="zone-name">Steal Brainrot Online</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/578.png"><div class="zone-name">Stickman and Guns</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/579.png"><div class="zone-name">Super Star Car</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/580.png"><div class="zone-name">Traffic Rider</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/581.png"><div class="zone-name">BuildNow.gg</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/582.png"><div class="zone-name">Friday Night Funkin': Mario's Madness</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/583.png"><div class="zone-name">Friday Night Funkin' vs Hypno Lullaby</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/584-a.png"><div class="zone-name">Stone Grass Mowing Simulator</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/585.png"><div class="zone-name">Fallout</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/586.png"><div class="zone-name">The Oregon Trail</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/587.png"><div class="zone-name">Newgrounds Rumble</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/588.png"><div class="zone-name">Super Mario 64</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/589.png"><div class="zone-name">Sonic CD</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/590.png"><div class="zone-name">Sonic Mania</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/591.png"><div class="zone-name">Slime Rancher</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/592.png"><div class="zone-name">Pac Man World</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/593.png"><div class="zone-name">Pac Man World 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/594.png"><div class="zone-name">Waterworks!</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/595.png"><div class="zone-name">Shapez.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/596-uu.png"><div class="zone-name">[!] COMMENTS</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/597.png"><div class="zone-name">Plants vs. Zombies 2 Gardenless</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/598.png"><div class="zone-name">Sonic.EXE</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/599.png"><div class="zone-name">Metal Gear Solid</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/600.png"><div class="zone-name">FNF Vs. Hypno's Lullaby v2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/601.png"><div class="zone-name">FNF Vs. Sonic.EXE 3.0/4.0</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/602.png"><div class="zone-name">Doom 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/603.png"><div class="zone-name">Growden.io</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/604.png"><div class="zone-name">Minesweeper Plus</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/605.png"><div class="zone-name">Schoolboy Runaway</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/606.png"><div class="zone-name">Sonic.EXE (ORIGINAL)</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/607.png"><div class="zone-name">Tattletail</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/608.png"><div class="zone-name">Friday Night Funkin VS Impostor v4</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/609.png"><div class="zone-name">Friday Night Funkin vs Sunday Remastered HD</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/610.png"><div class="zone-name">Friday Night Funkin vs Carol V2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/611.png"><div class="zone-name">The Legend of Zelda Ocarina of Time</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/612.png"><div class="zone-name">The Legend of Zelda Majora's Mask</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/613.png"><div class="zone-name">Friday Night Funkin' Drop and Roll, but Playable</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/614.png"><div class="zone-name">Toy Rider</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/615.png"><div class="zone-name">Friday Night Funkin Vs. Dave and Bambi v3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/616.png"><div class="zone-name">Friday Night Funkin’ Wednesday's Infidelity</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/617.png"><div class="zone-name">Postal</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/618.png"><div class="zone-name">FNF vs Bob v2.0 (Bob’s Onslaught)</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/619.png"><div class="zone-name">Friday Night Funkin': Rev-Mixed</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/620.png"><div class="zone-name">Three Goblets</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/621.png"><div class="zone-name">Friday Night Funkin': Gumballs</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/622.png"><div class="zone-name">Oneshot (LEGACY)</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/623.png"><div class="zone-name">Celeste</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/624.png"><div class="zone-name">Happy Wheels</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/625.png"><div class="zone-name">Get Yoked</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/626.png"><div class="zone-name">Doom 3</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/627.png"><div class="zone-name">Tag</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/628.png"><div class="zone-name">Pizza Tower: Scoutdigo</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/629.png"><div class="zone-name">Off</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/630.png"><div class="zone-name">Space Funeral</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/631.png"><div class="zone-name">Endroll</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/632.png"><div class="zone-name">Cave Story</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/633.png"><div class="zone-name">Friday Night Funkin': VS. Impostor: Alternated</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/634.png"><div class="zone-name">Friday Night Funkin': Chaos Nightmare - Sonic Vs. Fleetway</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/635.png"><div class="zone-name">Spelunky Classic HD</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/636.png"><div class="zone-name">Friday Night Funkin' D-Sides</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/637.png"><div class="zone-name">BFDIA 5b</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/638.gif"><div class="zone-name">BFDIA 5b: 5*30</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/639.png"><div class="zone-name">Friday Night Funkin' VS Impostor B-Sides</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/640.png"><div class="zone-name">Mutilate a Doll 2</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/641.png"><div class="zone-name">Godzilla Daikaiju Battle Royale</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/642.png"><div class="zone-name">Friday Night Funkin' Sunday Night Suicide: Rookies Edition</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/643.png"><div class="zone-name">Rio Rex</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/644.png"><div class="zone-name">Friday Night Funkin vs Nonsense</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/645.png"><div class="zone-name">Arthur's Nightmare</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/646.png"><div class="zone-name">Buster Jam</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/647.png"><div class="zone-name">Super Smash Flash</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/648.png"><div class="zone-name">Mindwave</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/649.png"><div class="zone-name">Look Outside</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/650.png"><div class="zone-name">Milk Inside a Bag of Milk Inside a Bag of Milk</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/651.png"><div class="zone-name">Milk Outside A Bag Of Milk Outside A Bag Of Milk</div></div><div class="zone"><img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/652.png"><div class="zone-name">Grand Theft Auto: Vice City</div></div></div>
+
+<div id="viewer">
+  <iframe id="frame"></iframe>
+  <div id="viewer-controls">
+    <button onclick="closeZone()">Close</button>
+    <button onclick="fullscreen()">Fullscreen</button>
+  </div>
+</div>
+
+<script>
+/* ===== TRUE UNICODE OBFUSCATION ===== */
+
+const MAP = {
+  A:"А",B:"В",C:"С",D:"Ꭰ",E:"Е",F:"Ғ",G:"Ԍ",H:"Н",I:"Ι",J:"Ј",
+  K:"Κ",L:"Ꮮ",M:"М",N:"Ν",O:"О",P:"Р",Q:"Ԛ",R:"Ꭱ",S:"Ѕ",T:"Т",
+  U:"Ս",V:"Ѵ",W:"Ԝ",X:"Х",Y:"Υ",Z:"Ζ",
+  a:"а",b:"Ь",c:"с",d:"ԁ",e:"е",f:"ғ",g:"ɡ",h:"һ",i:"і",j:"ј",
+  k:"κ",l:"ⅼ",m:"ｍ",n:"ո",o:"о",p:"р",q:"զ",r:"г",s:"ѕ",
+  t:"т",u:"ս",v:"ѵ",w:"ѡ",x:"х",y:"у",z:"ᴢ"
+};
+
+const REV = Object.fromEntries(Object.entries(MAP).map(e => [e[1], e[0]]));
+
+const obf = s => [...s].map(c => MAP[c] || c).join("");
+const deobf = s => [...s].map(c => REV[c] || c).join("");
+
+/* ===== APP LOGIC ===== */
+
+const COVER = "https://cdn.jsdelivr.net/gh/gn-math/covers@main";
+const HTML = "https://cdn.jsdelivr.net/gh/gn-math/html@main";
+
+const container = document.getElementById("container");
+const search = document.getElementById("search");
+const tags = document.getElementById("tags");
+const frame = document.getElementById("frame");
+const viewer = document.getElementById("viewer");
+
+let zones = [];
+let current = null;
+
+async function loadZones() {
+  const res = await fetch("https://cdn.jsdelivr.net/gh/gn-math/assets@latest/zones.json");
+  const raw = await res.json();
+
+  // SKIP FIRST ZONE INTENTIONALLY
+  zones = raw.slice(1).map(z => ({
+    name: obf(z.name),
+    cover: obf(z.cover),
+    url: obf(z.url),
+    tags: (z.special || []).map(obf)
+  }));
+
+  buildTags();
+  render(zones);
+}
+
+function buildTags() {
+  const all = [...new Set(zones.flatMap(z => z.tags))];
+  tags.innerHTML = `<option value="">All</option>` +
+    all.map(t => `<option>${deobf(t)}</option>`).join("");
+}
+
+function render(list) {
+  container.innerHTML = "";
+  list.forEach(z => {
+    const d = document.createElement("div");
+    d.className = "zone";
+
+    const img = document.createElement("img");
+    img.src = deobf(z.cover).replace("{COVER_URL}", COVER);
+
+    const name = document.createElement("div");
+    name.className = "zone-name";
+    name.textContent = deobf(z.name);
+
+    d.append(img, name);
+    d.onclick = () => openZone(z);
+
+    container.appendChild(d);
+  });
+}
+
+function openZone(z) {
+  current = z;
+  viewer.style.display = "flex";
+
+  fetch(deobf(z.url).replace("{HTML_URL}", HTML))
+    .then(r => r.text())
+    .then(html => frame.srcdoc = html);
+}
+
+function closeZone() {
+  frame.srcdoc = "";
+  viewer.style.display = "none";
+}
+
+function fullscreen() {
+  frame.requestFullscreen?.();
+}
+
+/* ===== FILTERS ===== */
+
+search.oninput = () => {
+  const q = search.value.toLowerCase();
+  render(zones.filter(z => deobf(z.name).toLowerCase().includes(q)));
+};
+
+tags.onchange = () => {
+  render(
+    tags.value
+      ? zones.filter(z => z.tags.map(deobf).includes(tags.value))
+      : zones
+  );
+};
+
+document.getElementById("refresh").onclick = loadZones;
+
+loadZones();
+</script>
 
 
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const searchBar = document.getElementById('searchBar');
-            const gameGrid = document.getElementById('gameGrid');
-            const gameLinks = gameGrid.getElementsByTagName('a');
+</body></html>
+<!-- ================= CatGPT Startup Animation ================= -->
+<div id="zyra-startup-overlay">
+  <div id="zyra-startup-content">
+    <p id="zyra-warning-text">SOME GAMES DON'T WORK</p>
+    <h1 id="zyra-main-title">Zyra Games</h1>
+    <h3 id="zyra-subtitle">By Josh Johnson</h3>
+  </div>
+</div>
 
-            searchBar.addEventListener('keyup', function() {
-                const searchTerm = searchBar.value.toLowerCase();
+<style>
+  /* Full-screen overlay */
+  #zyra-startup-overlay {
+    position: fixed;
+    inset: 0;
+    background: #0f0f0f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    animation: fadeOut 6s forwards;
+    font-family: Arial, sans-serif;
+  }
 
-                for (let i = 0; i < gameLinks.length; i++) {
-                    const gameName = gameLinks[i].textContent.toLowerCase();
-                    if (gameName.includes(searchTerm)) {
-                        gameLinks[i].style.display = '';
-                    } else {
-                        gameLinks[i].style.display = 'none';
-                    }
-                }
-            });
+  #zyra-startup-content {
+    text-align: center;
+  }
 
-            const clockElement = document.getElementById('clock');
-            function updateClock() {
-                const now = new Date();
-                const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
-                if(clockElement) {
-                    clockElement.textContent = timeString;
-                }
-            }
-            setInterval(updateClock, 1000);
-            updateClock();
+  #zyra-warning-text {
+    font-size: 50px;
+    font-weight: 900;
+    color: #b48cff;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+  }
 
+  #zyra-main-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    animation: zoomIn 2s ease-in-out;
+  }
 
-            particlesJS("particles-js", {
-                "particles": {
-                    "number": {
-                        "value": 80,
-                        "density": {
-                            "enable": true,
-                            "value_area": 800
-                        }
-                    },
-                    "color": {
-                        "value": "#ffffff"
-                    },
-                    "shape": {
-                        "type": "circle",
-                        "stroke": {
-                            "width": 0,
-                            "color": "#000000"
-                        },
-                        "polygon": {
-                            "nb_sides": 5
-                        }
-                    },
-                    "opacity": {
-                        "value": 0.3,
-                        "random": false,
-                        "anim": {
-                            "enable": false,
-                            "speed": 1,
-                            "opacity_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "size": {
-                        "value": 3,
-                        "random": true,
-                        "anim": {
-                            "enable": false,
-                            "speed": 40,
-                            "size_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "line_linked": {
-                        "enable": true,
-                        "distance": 150,
-                        "color": "#ffffff",
-                        "opacity": 0.2,
-                        "width": 1
-                    },
-                    "move": {
-                        "enable": true,
-                        "speed": 2,
-                        "direction": "none",
-                        "random": false,
-                        "straight": false,
-                        "out_mode": "out",
-                        "bounce": false,
-                        "attract": {
-                            "enable": false,
-                            "rotateX": 600,
-                            "rotateY": 1200
-                        }
-                    }
-                },
-                "interactivity": {
-                    "detect_on": "canvas",
-                    "events": {
-                        "onhover": {
-                            "enable": true,
-                            "mode": "grab"
-                        },
-                        "onclick": {
-                            "enable": true,
-                            "mode": "push"
-                        },
-                        "resize": true
-                    },
-                    "modes": {
-                        "grab": {
-                            "distance": 140,
-                            "line_linked": {
-                                "opacity": 0.5
-                            }
-                        },
-                        "bubble": {
-                            "distance": 400,
-                            "size": 40,
-                            "duration": 2,
-                            "opacity": 8,
-                            "speed": 3
-                        },
-                        "repulse": {
-                            "distance": 200,
-                            "duration": 0.4
-                        },
-                        "push": {
-                            "particles_nb": 4
-                        },
-                        "remove": {
-                            "particles_nb": 2
-                        }
-                    }
-                },
-                "retina_detect": true
-            });
+  #zyra-subtitle {
+    font-size: 24px;
+    color: #b48cff;
+    margin: 0;
+    animation: fadeIn 3s ease-in-out;
+  }
 
-        });
-    </script>
+  /* Animations */
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+  }
 
-<div id="413e0318-6b5c-401b-b22a-e9bf016b179e" data-gg-privacy-banner-anchor="true" style="z-index: 2147483645; position: relative; display: block; height: 0px; min-height: 0px; width: 0px; min-width: 0px; margin: 0px; padding: 0px; border: 0px;"></div><div data-gg-beacon-banner-anchor="true" style="position: relative; height: 0px; min-height: 0px; width: 0px; min-width: 0px; margin: 0px; padding: 0px; border: 0px; --gg-max-safe-z-index: 2147483645; z-index: 2147483645;"></div><div data-gg-announcements-anchor="true" style="z-index: 2147483645; position: relative; display: block; height: 0px; min-height: 0px; width: 0px; min-width: 0px; margin: 0px; padding: 0px; border: 0px;"><div class="To7Rzi0O1nlffaEHzn94 VrTDXRtVFtBycLTZbRR8" style="display: none;"><div class="t0W1qu3qBahmkXdEPA3S" aria-hidden="true" style="opacity: 0;"></div><div tabindex="0" aria-hidden="true"></div><div class="qit3QTAcJj8MDbtOxkD1" role="alertdialog" aria-describedby="gg-chat-announcement-content" aria-modal="true"><div id="gg-chat-announcement-content" class="SCPAMof7dbuKMcfsDeU4"></div><div class="K64G9NQMNxCmZCnhhfbq"><button class="hFr78obMHMXgwzeU7qJy">Got it</button></div></div><div tabindex="0" aria-hidden="true"></div></div></div></body></html>
+  @keyframes zoomIn {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+</style>
+
+<script>
+  // Automatically remove overlay after animation
+  setTimeout(function() {
+    const overlay = document.getElementById("zyra-startup-overlay");
+    if (overlay) overlay.style.display = "none";
+  }, 6000); // 6 seconds
+</script>
+<!-- ================= End CatGPT Startup Animation ================= -->
